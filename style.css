@@ -1,6 +1,13 @@
-body{
-    background-color: antiquewhite;
+body {
+    display: flex;
+    justify-content: center;     /* horizontal centering */
+    align-items: center;         /* vertical centering */
+    height: 100vh;               /* full viewport height */
+    margin: 0;
+    background-color: white;   /* soft blue background */
+    font-family: 'Segoe UI', sans-serif;
 }
+
 
 #container{
     text-align: center;
@@ -43,4 +50,5 @@ button:active{
 #diceImg img{
     width: 150px;
     margin: 5px;
+
 }
