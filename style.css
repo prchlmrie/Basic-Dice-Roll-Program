@@ -1,11 +1,10 @@
 body {
     display: flex;
-    justify-content: center;     /* horizontal centering */
-    align-items: center;         /* vertical centering */
-    height: 90vh;               /* full viewport height */
+    justify-content: center;   
+    align-items: center;        
+    height: 90vh;              
     margin: 0;
-    background-color: white;   /* soft blue background */
-    font-family: 'Segoe UI', sans-serif;
+    background-color: white;   
 }
 
 
@@ -52,4 +51,5 @@ button:active{
     margin: 5px;
 
 }
+
 
